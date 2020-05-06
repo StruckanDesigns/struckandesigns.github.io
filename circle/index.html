@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="../images/icon.jpg" type="image/gif" sizes="16x16"></link>
+<link rel="stylesheet" type="text/css" href="../styles/myy.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<title>Funny IconPack Circle</title>
+
+</head>
+<body class="body">  
+
+      <div class="wrapper">
+
+ <div class="topnav" id="myTopnav">
+
+  <a class="active" href="https://struckandesigns.github.io/">Home</a>
+  <a href="changelog">Change Log</a>
+  <a href="contact">Contact</a>
+  <a href="privacypolicy">Privacy Policy</a>
+  <a href="termscondition">Terms & Condition</a>
+  <a href="../squircle">Squircle</a>
+  <a href="../circle">Circle</a>
+  
+
+<div class="theme-switch-wrapper">
+    <label class="theme-switch" for="checkbox">
+        <input type="checkbox" id="checkbox" />
+        <div class="slider round"></div>
+  </label>
+  <em>Enable Dark Mode!</em>
+</div>
+  
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+ <br>
+
+
+<section>
+ <center><h1>Homepage</h1>
+
+<p>Funny IconPack Circle Latest Version is v1.0.0 <br>Current icons in the pack:570 <br><a href="#soon">Play store link</a></p>
+
+</center>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/jquery-latest.min.js"></script>
+<script src="../js/jquery.cookie.min.js"></script>
+
+<script>
+    
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  const currentTheme = localStorage.getItem('theme');
+
+  if (currentTheme) {
+      document.documentElement.setAttribute('data-theme', currentTheme);
+
+      if (currentTheme === 'dark') {
+          toggleSwitch.checked = true;
+      }
+  }
+
+  function switchTheme(e) {
+      if (e.target.checked) {
+          document.documentElement.setAttribute('data-theme', 'dark');
+          localStorage.setItem('theme', 'dark');
+      }
+      else {        document.documentElement.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+      }    
+  }
+
+  toggleSwitch.addEventListener('change', switchTheme, false);
+
+  </script>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<hr>
+<center>
+<br>
+<footer><p>&copy; 2020 Struckan Designs &middot; <a href="https://twitter.com/StruckanDesigns">Twitter</a> &middot; <a href="contact">Contact me</a>  &middot; <a href="privacypolicy">Privacy Policy</a> &middot; <a href="termscondition">Terms & Condition</a> </p></footer>
+</center></section>
+</body>
+</html>
