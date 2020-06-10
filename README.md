@@ -5,6 +5,8 @@
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/StruckanDesigns/struckandesigns.github.io)
 
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://GitHub.com/Naereen/StrapDown.js/releases/)
+
 > Icon Packs for Android
 
 **Badges will go here**
