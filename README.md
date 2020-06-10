@@ -9,12 +9,6 @@
 
 > Icon Packs for Android
 
-
-## Table of Contents
-
-- [FAQ](#faq)
-- [License](#license)
-
 ---
 
 ## Support
