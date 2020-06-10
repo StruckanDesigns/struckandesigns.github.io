@@ -1,16 +1,9 @@
-<a href="http://struckandesigns.github.com"><img src="https://raw.githubusercontent.com/StruckanDesigns/struckandesigns.github.io/master/images/icon.jpg" title="StruckanDesigns" alt="FVCproductions"></a>
+<a href="https://struckandesigns.github.io/"><img src="https://raw.githubusercontent.com/StruckanDesigns/struckandesigns.github.io/master/images/icon.jpg" title="StruckanDesigns" alt="FVCproductions"></a>
 
-<!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
-***INSERT GRAPHIC HERE (include hyperlink in image)***
+# Struckan Designs
 
-# Repository Title Goes Here
-
-> Subtitle or Short Description Goes Here
-
-> ideally one sentence
-
-> include terms/tags that can be searched
+> Icon Packs for Android
 
 **Badges will go here**
 
