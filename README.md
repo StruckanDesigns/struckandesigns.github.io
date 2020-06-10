@@ -8,19 +8,10 @@
 > Icon Packs for Android
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 - [FAQ](#faq)
-- [Support](#support)
 - [License](#license)
-
-
----
-
-## FAQ
-
-- **How do I do *specifically* so and so?**
-    - No problem! Just do this.
 
 ---
 
@@ -30,7 +21,6 @@ Reach out to me at one of the following places!
 
 - Website at <a href="https://struckandesigns.github.io/" target="_blank">`https://struckandesigns.github.io/`</a>
 - Twitter at <a href="https://twitter.com/StruckanDesigns" target="_blank">`@StruckanDesigns`</a>
-- Insert more social links here.
 
 ---
 
