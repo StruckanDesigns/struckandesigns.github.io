@@ -22,22 +22,22 @@
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #161625;
-  color: #e1e1ff;
+  background-color: var(--bg-color);
+  color: var(--font-color);
   max-width: 100%;
   margin: 0 auto;
   font-size: calc(1rem + 0.25vh);
 }
 
 h1 {
-    color: #818cab;
+    color: var(--heading-color);
     font-family: "Sansita One", serif;
     font-size: 2rem;
     margin-bottom: 1vh;
 }
 
 h3{
-    color: #818cab;
+    color: var(--heading-color);
     font-family: "Sansita One", serif;
     font-size: 1.3rem;
     margin-bottom: 1vh;
@@ -56,7 +56,7 @@ p {
 }
 
 a {
-  color: #9A97F3;
+  color: var(--primary-color);
   text-decoration: none;
   border-bottom: 3px solid transparent;
   font-weight: bold;
@@ -75,7 +75,7 @@ section {
   font-style: italic;
   display: block;
   margin-bottom: 4vh;
-  color: #818cab;
+  color: var(--secondary-color);
 }
 
 nav {
@@ -146,20 +146,20 @@ input:checked + .slider:before {
 
 .active {
   background-color: #4CAF50;
-  color: #e1e1ff;
+  color: var(--font-color);
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #161625;
+  background-color: var(--bg-color);
 }
 
 .topnav a {
-  border-radius: 25px;  
+  border-radius: 25px;	
   border: 2px solid #4CAF50;
   float: left;
   display: inline-block;
-  color:  #e1e1ff;
+  color:  var(--font-color);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -170,7 +170,7 @@ input:checked + .slider:before {
 .topnav a:hover {
   border-radius: 25px;
   background-color: #4CAF50;
-  color:  #e1e1ff;
+  color:  var(--font-color);
 }
 
 .topnav .icon {
@@ -196,7 +196,7 @@ ul {
 
 li a {
     display: block;
-    color:  #e1e1ff;
+    color:  var(--font-color);
     padding: 8px 0 8px 16px;
     text-decoration: none;
 }
