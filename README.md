@@ -13,7 +13,7 @@
 
 ## Support
 
-Reach out to me at one of the following places!
+Reach out to me at one of the following places! 
 
 - Website at <a href="https://struckandesigns.github.io/contact" target="_blank">`https://struckandesigns.github.io/contact`</a>
 - Twitter at <a href="https://twitter.com/StruckanDesigns" target="_blank">`@StruckanDesigns`</a>
