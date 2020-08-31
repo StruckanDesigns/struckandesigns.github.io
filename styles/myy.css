@@ -1,15 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
   
- :root {
-    --primary-color: #302AE6;
-    --secondary-color: #536390;
-    --font-color: #424242;
-    --bg-color: #fff;
-    --heading-color: #292922;
-    --button1: white;
-    --button1-text: black;
-}
-
 [data-theme="dark"] {
     --primary-color: #9A97F3;
     --secondary-color: #818cab;
