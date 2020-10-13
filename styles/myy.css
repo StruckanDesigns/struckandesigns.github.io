@@ -144,61 +144,37 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
-.active {
-  background-color: #4CAF50;
-  color: #e1e1ff;
-}
+ul.topnav {
 
-.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #161625;
 }
 
-.topnav a {
+ul.topnav li {float: left;}
+
+ul.topnav li a {
   border-radius: 25px;  
-  border: 2px solid #4CAF50;
-  float: left;
-  display: inline-block;
-  color:  #e1e1ff;
+  border: 2px solid #3E47CC;
+  display: block;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
   margin-right: 4px;
+  margin-left: 4px;
 }
 
-.topnav a:hover {
-  border-radius: 25px;
-  background-color: #4CAF50;
-  color:  #e1e1ff;
-}
+ul.topnav li a:hover:not(.active) {  border-radius: 25px;
+  background-color: #3E47CC;}
 
-.topnav .icon {
-  display: none;
-}
+ul.topnav li a.active {background-color: #3E47CC; border-radius: 25px;}
 
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 10%;
-    background-color: black;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-li a {
-    display: block;
-    color:  #e1e1ff;
-    padding: 8px 0 8px 16px;
-    text-decoration: none;
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;   margin-bottom: 4px; margin-top: 4px;}
 }
 
 .disabled {
@@ -213,6 +189,35 @@ li a {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.button {
+  border: none;
+  color:#e1e1ff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.button1 {
+  background-color: #161625; 
+  color:#e1e1ff; 
+  border: 2px solid #3E47CC;
+  border-radius: 25px;
+}
+
+.button1:hover {
+  background-color: #3E47CC;
+  color:#e1e1ff;
+  border-radius: 25px;
+}
+
+.button5 {width: 191px;}
 
 hr {
     margin: auto;
