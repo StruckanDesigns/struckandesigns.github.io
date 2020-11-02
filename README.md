@@ -15,6 +15,6 @@
 
 Reach out to me at one of the following places! 
 
-- Website at <a href="https://struckandesigns.github.io/contact" target="_blank">`https://struckandesigns.github.io/contact`</a>
+- Website at <a href="https://struckandesigns.xyz/contact" target="_blank">`https://struckandesigns.xyz/contact`</a>
 - Twitter at <a href="https://twitter.com/StruckanDesigns" target="_blank">`@StruckanDesigns`</a>
 - Email at struckandesigns@gmail.com
