@@ -78,6 +78,14 @@ section {
   color: #818cab;
 }
 
+@import url(https://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
+#demo {
+  font-size: 25px;
+  color: #db4844;
+  font-family: 'Covered By Your Grace', cursive;
+}
+
 nav {
   display: flex;
   justify-content: flex-end;
