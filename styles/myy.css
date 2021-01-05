@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,400italic,700|Sansita+One);
-  
+
  :root {
     --primary-color: #302AE6;
     --secondary-color: #536390;
@@ -96,11 +96,11 @@ nav {
 .theme-switch-wrapper {
   display: center;
   align-items: flex;
-  
+
   em {
     margin-left: 10px;
     font-size: 1rem;
-    
+
   }
 }
 .theme-switch {
@@ -164,7 +164,7 @@ ul.topnav {
 ul.topnav li {float: left;}
 
 ul.topnav li a {
-  border-radius: 25px;  
+  border-radius: 25px;
   border: 2px solid #3E47CC;
   display: block;
   color: white;
@@ -181,7 +181,7 @@ ul.topnav li a:hover:not(.active) {  border-radius: 25px;
 ul.topnav li a.active {background-color: #3E47CC; border-radius: 25px;}
 
 @media screen and (max-width: 600px) {
-  ul.topnav li.right, 
+  ul.topnav li.right,
   ul.topnav li {float: none;   margin-bottom: 4px; margin-top: 4px;}
 }
 
@@ -209,12 +209,12 @@ ul.topnav li a.active {background-color: #3E47CC; border-radius: 25px;}
   margin: 4px 2px;
   transition-duration: 0.4s;
   cursor: pointer;
-  
+
 }
 
 .button1 {
-  background-color: #161625; 
-  color:#e1e1ff; 
+  background-color: #161625;
+  color:#e1e1ff;
   border: 2px solid #3E47CC;
   border-radius: 25px;
 }
@@ -229,7 +229,7 @@ ul.topnav li a.active {background-color: #3E47CC; border-radius: 25px;}
 
 hr {
     margin: auto;
-    width: 40%;
+    width: 60%;
 }
 
 /* For mobile phones: */
