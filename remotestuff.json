@@ -7,4 +7,11 @@
     "Another release note",
     "You can use <b>text</b> <i>formatting</i> <u>here</u>"
   ]
+},
+{
+  "url": "https://github.com/zixpo/candybar",
+  "disableRequest": {
+    "below": 1,
+    "on": "40 20 353"
+  }
 }
