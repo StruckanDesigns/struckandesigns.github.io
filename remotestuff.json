@@ -1,13 +1,11 @@
 {
-  "latestVersion": "0.1",
-  "latestVersionCode": 1,
+  "latestVersion": "0.2",
+  "latestVersionCode": 2,
   "disableRequest": {
     "below": 1
   },
   "url": "https://github.com/zixpo/candybar",
   "releaseNotes": [
-    "This is the text which will be shown on Update",
-    "Another Release Note",
-    "You can Use <b>Text</b> <i>Formatting</i> <u>Too</u>"
+    "Updated to adaptive icons"
   ]
 }
